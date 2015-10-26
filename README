@@ -1,0 +1,9 @@
+To start:
+
+1. In ffconnect.sh, edit INRES and FPS as desired
+2. In ffserver.conf, edit VideoSize and VideoFrameRate to be the same
+3. Make sure the port forwarding and firewalls are set up to allow port 8090
+4. Run start.sh
+5. Point a browser to http://localhost:8090/live.webm
+   (replace localhost with IP or DNS name for external access)
+
